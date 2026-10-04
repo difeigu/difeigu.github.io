@@ -9,56 +9,33 @@ redirect_from:
 
 {% include base_path %}
 
+A downloadable PDF version of my CV is available here: [Difei Gu's Curriculum Vitae](../files/Difei_Gu_CV.pdf).
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Computer Science, Rutgers University, Sept. 2023 – Expected 2028 (GPA: 3.9/4.0)
+  * Advisor: Prof. Dimitris Metaxas
+* B.S. in Electrical and Computer Engineering (Co-operative Program), University of Waterloo, Sept. 2016 – May 2021 (GPA: 3.9/4.0)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jun 2026 – Present: Research Intern (Agentic AI), Siemens Healthineers – Digital Technology & Innovation (DTI), Princeton, NJ
+  * Co-supervised by Han Liu and Sasa Grbic
+  * Agentic autoresearch framework for self-improving adaptation of medical foundation models; best intern poster award
+* Aug 2021 – May 2023: Research Intern, Centre for Perceptual and Interactive Intelligence (CPII), Hong Kong SAR
+  * Co-supervised by Prof. Hongsheng Li and Prof. Xiaofan Zhang
+* Sept 2019 – Dec 2019: Systems Software Developer (DevOps), BlackBerry, Ottawa, Canada
+* Jan 2019 – Apr 2019: Software Development Intern (R&D), Northern Digital Inc., Waterloo, Canada
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Deep Learning & Frameworks: PyTorch, HuggingFace Transformers, CLIP, NumPy, scikit-learn
+* Vision & Multimodal: VLM, LLM, Sparse Autoencoders, Reasoning Models, CNN/ViT
+* Optimization & Training: Distributed Training (DDP/NCCL), Mixed Precision
+* Specialized Areas: Agentic AI, Reasoning Systems, Model Interpretability, VLM, Medical Imaging, Image Segmentation
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
